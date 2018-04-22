@@ -1,0 +1,20 @@
+<html>
+
+<head>
+  <style>
+    body {
+      font-family: sans-serif
+    }
+  </style>
+</head>
+
+<body>
+  <h1>People</h1>
+  <a href="/everyone">Everyone</a> <a href="/male">Male</a> <a href="/female">Female</a> <a href="/over30">Over 30</a> <a href="/under30">Under 30</a>
+  <ul>
+    {{#each people}}
+    <li>{{name}} {{age}} {{/each}}
+  </ul>
+</body>
+
+</html>
