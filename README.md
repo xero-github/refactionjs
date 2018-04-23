@@ -1,4 +1,4 @@
-# refactionjs
+# refactionjs-improved
 Refactoring exercise for Node
 
 ## Getting started for applicants
